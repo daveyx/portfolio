@@ -64,6 +64,10 @@ body {
   margin: 0%;
 }
 
+h3 {
+  font-size: 35px;
+}
+
 .navbar-inverse {
   background-color: #fff;
   border-color: #e7e7e7;
@@ -237,4 +241,19 @@ h1 {
 .portfolioitem-text {
   margin-top: 5px;
   text-align: center;
+}
+
+.project {
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.project-image img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-text p {
+  margin-top: 10px;
 }
