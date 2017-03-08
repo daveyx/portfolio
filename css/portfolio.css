@@ -4,15 +4,15 @@
   .middle-fluid-content {
     width: 100%;
   }
-  
+
   .intro-text {
     padding-left: 30px;
   }
-  
+
   .intro-text .binary {
     font-size: 7px;
   }
-  
+
   h1 {
     margin-bottom: 0;
     font-size: 42px;
@@ -29,7 +29,7 @@
   .middle-fluid-content {
     width: 750px;
   }
-  
+
   .intro-text {
     padding-left: 80px;
     padding-top: 50px;
@@ -61,7 +61,7 @@ body {
   min-height: 2000px;
   padding-top: 70px;
   width: 100%;
-  margin: 0%;   
+  margin: 0%;
 }
 
 .navbar-inverse {
@@ -93,7 +93,7 @@ body {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #888; 
+  border-color: #888;
 }
 
 .navbar-right {
@@ -214,4 +214,27 @@ h1 {
   border: solid 1px #ddd;
   border-radius: 5px;
   margin-bottom: 25px;
+}
+
+.portfolioitem-header {
+  background-color: #46b8da;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolioitem-image {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolioitem-image img {
+  max-height: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.portfolioitem-text {
+  margin-top: 5px;
+  text-align: center;
 }
