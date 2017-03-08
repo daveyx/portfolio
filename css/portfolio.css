@@ -46,8 +46,11 @@
 }
 
 @media (min-width: 992px) {
-    .middle-fluid-content {
+  .middle-fluid-content {
     width: 910px;
+  }
+  .linkedin-logo {
+      padding-top: 25px;
   }
 }
 
@@ -256,4 +259,24 @@ h1 {
 
 .project-text p {
   margin-top: 10px;
+}
+
+.social .contact-item {
+  margin-bottom: 20px;
+  max-height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.messengers .contact-item .messenger-image img {
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
+.messengers .contact-item {
+  margin-bottom: 20px;
+}
+
+.messengers .contact-item p {
+  width: 100%;
 }
