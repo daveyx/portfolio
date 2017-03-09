@@ -28,6 +28,12 @@
     font-size: 18vw;
     letter-spacing: 10px;
   }
+
+  .nomad-teaser {
+    font-size: 90px;
+    letter-spacing: 10px;
+    line-height: normal;
+  }
 }
 
 @media only screen and (min-width : 480px) {
@@ -70,6 +76,11 @@
     font-size: 12vw;
     letter-spacing: 25px;
   }
+
+  .nomad-teaser {
+    font-size: 140px;
+    letter-spacing: 15px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -77,9 +88,11 @@
     padding-top: 50px;
     padding-left: 60px;
   }
+
   .middle-fluid-content {
     width: 910px;
   }
+
   .linkedin-logo {
       padding-top: 25px;
   }
@@ -196,8 +209,10 @@ h1 {
 
 .nomad-teaser {
   font-family: 'Londrina Shadow', cursive;
-  font-size: 10vw;
-  letter-spacing: 24px;
+}
+
+#about p {
+  margin-bottom: 0;
 }
 
 .caption {
