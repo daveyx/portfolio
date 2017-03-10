@@ -179,6 +179,7 @@ h1 {
 }
 
 .intro-text h1 small {
+  color: white;
   display: block;
   letter-spacing: normal;
   text-shadow: none;
