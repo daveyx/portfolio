@@ -8,3 +8,9 @@
     ------------------------------------------------------------------------
 
 # my portfolio page
+
+### live version
+http://daveyx.ga
+
+### view at codepen
+http://codepen.io/daveyx/full/MpbZbz/
