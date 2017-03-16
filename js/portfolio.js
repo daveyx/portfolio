@@ -49,3 +49,13 @@ $(document).ready(function() {
     return regex.test(email);
   }
 });
+
+$('#show-more-wrap').on('shown.bs.collapse', function (e) {
+    $('#show-more-button').text('Show less');
+    $('#show-more-button').css('margin-bottom', '25px');
+});
+
+$('#show-more-wrap').on('hidden.bs.collapse', function (e) {
+    $('#show-more-button').text('Show more');
+    $('#show-more-button').css('margin-bottom', '0');
+});

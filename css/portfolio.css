@@ -130,6 +130,9 @@
   	background-image: url(http://www.daveyx.ga/images/img_parallax4.jpg);
   	min-height: 300px;
   }
+  #show-more-wrap {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -311,6 +314,12 @@ h1 {
 .portfolioitem-text {
   margin-top: 5px;
   text-align: center;
+}
+
+.btn:focus, .btn:focus:active {
+    outline: none;
+    background-color: #337ab7;
+    border-color: #2e6da4;
 }
 
 .project {
