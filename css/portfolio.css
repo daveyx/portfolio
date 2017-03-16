@@ -68,12 +68,19 @@
   .intro-text {
     width: 60%;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 0;
   }
 
   h1 {
     margin-bottom: 0;
     font-size: 72px;
+  }
+}
+
+/* h1-small breaks to one line */
+@media only screen and (min-width : 685px) {
+  .intro-text {
+    padding-top: 40px;
   }
 }
 
