@@ -130,7 +130,7 @@
   	background-image: url(http://www.daveyx.ga/images/img_parallax4.jpg);
   	min-height: 300px;
   }
-  #show-more-wrap, #show-more-wrap2 {
+  #show-more-wrap, #show-more-wrap2, #show-more-wrap3 {
     display: block;
   }
 }

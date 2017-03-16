@@ -69,3 +69,13 @@ $('#show-more-wrap2').on('hidden.bs.collapse', function (e) {
     $('#show-more-button2').text('Show more');
     $('#show-more-button2').css('margin-bottom', '0');
 });
+
+$('#show-more-wrap3').on('shown.bs.collapse', function (e) {
+    $('#show-more-button3').text('Show less');
+    $('#show-more-button3').css('margin-bottom', '25px');
+});
+
+$('#show-more-wrap3').on('hidden.bs.collapse', function (e) {
+    $('#show-more-button3').text('Show more');
+    $('#show-more-button3').css('margin-bottom', '0');
+});
