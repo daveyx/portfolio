@@ -57,6 +57,13 @@
     background-image: url(http://www.daveyx.ga/images/img_parallax4_mobile.jpg);
     min-height: 300px;
   }
+  .form-element {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .control-label {
+    padding-left: 32px;
+  }
 }
 
 @media only screen and (min-width : 480px) {
@@ -138,6 +145,10 @@
   }
   #show-more-wrap, #show-more-wrap2, #show-more-wrap3 {
     display: block;
+  }
+  .form-element {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -348,6 +359,7 @@ h1 {
   max-height: 150px;
   display: flex;
   align-items: center;
+  border: 1px solid red;
 }
 
 .messengers .contact-item .messenger-image img {
