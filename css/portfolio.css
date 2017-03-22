@@ -363,8 +363,17 @@ h1 {
   width: 100%;
 }
 
-#myform {
+.panel {
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.panel-heading {
+  background-color: #46b8da;
+  border: 1px solid #46b8da;
 }
 
 #myform input, #myform textarea {
