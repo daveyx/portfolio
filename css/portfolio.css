@@ -48,6 +48,7 @@
   .bgimg-2 {
     background-image: url(http://www.daveyx.ga/images/img_parallax2_mobile.jpg);
     min-height: 300px;
+    margin-top: 10px;
   }
   .bgimg-3 {
     background-image: url(http://www.daveyx.ga/images/img_parallax3_mobile.jpg);
@@ -134,6 +135,7 @@
   .bgimg-2 {
   	background-image: url(http://www.daveyx.ga/images/img_parallax2.jpg);
   	min-height: 300px;
+    margin-top: 10px;
   }
   .bgimg-3 {
   	background-image: url(http://www.daveyx.ga/images/img_parallax3.jpg);
