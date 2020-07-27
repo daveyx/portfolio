@@ -42,20 +42,20 @@
     margin-bottom: 20px;
   }
   .bgimg-1 {
-      background-image: url(https://www.daveyx.ga/images/img_parallax_mobile.jpg);
+      background-image: url(../images/img_parallax_mobile.jpg);
       min-height: 300px;
   }
   .bgimg-2 {
-    background-image: url(https://www.daveyx.ga/images/img_parallax2_mobile.jpg);
+    background-image: url(../images/img_parallax2_mobile.jpg);
     min-height: 300px;
     margin-top: 10px;
   }
   .bgimg-3 {
-    background-image: url(https://www.daveyx.ga/images/img_parallax3_mobile.jpg);
+    background-image: url(../images/img_parallax3_mobile.jpg);
     min-height: 300px;
   }
   .bgimg-4 {
-    background-image: url(https://www.daveyx.ga/images/img_parallax4_mobile.jpg);
+    background-image: url(../images/img_parallax4_mobile.jpg);
     min-height: 300px;
   }
   .form-element {
