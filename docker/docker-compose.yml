@@ -1,0 +1,12 @@
+daveyx-nginx2:
+    image: nginx:latest
+    ports:
+        - "80:80"
+    volumes:
+        - /opt/docker/nginx/conf.d:/etc/nginx/conf.d
+        - /opt/docker/nginx:/opt/docker/nginx
+        - /home/daveyx/bluexs/daveyxga/portfolio:/home/daveyx/bluexs/daveyxga/portfolio
+    environment:
+      - PUID=1000
+      - PGID=1000
+
