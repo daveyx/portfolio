@@ -129,20 +129,20 @@
   	margin-bottom: 20px;
   }
   .bgimg-1 {
-      background-image: url(https://www.daveyx.ga/images/img_parallax.jpg);
+      background-image: url(../images/img_parallax.jpg);
       min-height: 300px;
   }
   .bgimg-2 {
-  	background-image: url(https://www.daveyx.ga/images/img_parallax2.jpg);
+  	background-image: url(../images/img_parallax2.jpg);
   	min-height: 300px;
     margin-top: 10px;
   }
   .bgimg-3 {
-  	background-image: url(https://www.daveyx.ga/images/img_parallax3.jpg);
+  	background-image: url(../images/img_parallax3.jpg);
   	min-height: 300px;
   }
   .bgimg-4 {
-  	background-image: url(https://www.daveyx.ga/images/img_parallax4.jpg);
+  	background-image: url(../images/img_parallax4.jpg);
   	min-height: 300px;
   }
   #show-more-wrap, #show-more-wrap2, #show-more-wrap3 {
